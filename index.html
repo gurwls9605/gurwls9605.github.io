@@ -14,6 +14,12 @@
 	<!-- bxslider 연결 -->
 	<link rel="stylesheet" href="lib/bxslider/jquery.bxslider.css">
 	<script src='lib/bxslider/jquery.bxslider.js'></script>
+
+	<!-- aos 연결 -->
+	<link rel="stylesheet" href="lib/aos-master/dist/aos.css">
+	<script src='lib/aos-master/dist/aos.js'></script>
+
+
 	
 	<!-- 각종 사용자 스타일 및 스크립트 
 	:: 헤더안에 연결되는 각종 링크 문서들중 항상 사용자 스타일 스크립트가 
@@ -23,6 +29,7 @@
 	<link rel="stylesheet" href="css/main.css">
     <script src='js/basic.js'></script>
 </head>
+
 
 <body>
 	<div class="quickmenu">
@@ -58,7 +65,7 @@
 <div id="fullpage">
     <div class="visual section">
 		<!-- 웹표준에서는 소리가 있는 비디오는 사용자 접근성을 방해한다는 이유로 오디오가 있는 비디오는 반드시 소리를 제거하여야 자동재생이 되도록 권고하고 잇습니다. 그외에는 사용자가 play 해야 재생되는것이 웹표준의 권고사항 입니다. -->
-		<!--<video src="media/harim02.mp4" id='video' autoplay muted loop data-autoplay></video>  -->
+		<video src="media/harim02.mp4" id='video' autoplay muted loop data-autoplay></video>
     </div><!-- .visual end -->
 
     <div class="products section">
@@ -76,13 +83,13 @@
 					<ul class='produt'>
 						<li>
 							<div class="box"></div>
-							<div class="box">
+							<div class="box" data-aos='fade-left'>
 								<img src="images/product1.png" alt="">
 							</div>
-							<div class="box">
+							<div class="box" data-aos='fade-right'>
 								<img src="images/product2.png" alt="">
 							</div>
-							<div class="box">
+							<div class="box" data-aos='fade-left'>
 								<img src="images/product3.jpg" alt="">
 							</div>
 						</li>
@@ -119,43 +126,114 @@
     <div class="brand section">
 		<div class="container">
 			<div class="col12"><h2>BRAND</h2>
-				<p>부연설명...일단 생략</p>
+				<p>맛있는 하림 이야기! 국민이 사랑하는 건강한 대표  닭고기 브랜드를 소개합니다.</p>
 			</div>
 		</div>
 
 		<div class="container">
 			<div class="barandwrap">
 					<div id='brand'>
-					<div class="col4"><img src="images/brand1.jpg"  alt=""></div>
-					<div class="col4"><img src="images/brand2.jpg"  alt=""></div>
-					<div class="col4"><img src="images/brand3.jpg"  alt=""></div>
-					<div class="col4"><img src="images/brand4.jpg"  alt=""></div>
-					<div class="col4"><img src="images/brand5.jpg"  alt=""></div>
-					<div class="col4"><img src="images/brand6.jpg"  alt=""></div>
+					<div class="col4" data-aos="fade-up" data-aos-delay='100'><img src="images/brand1.jpg"  alt="">
+					<div class="txt">
+					<h3>용가리 치킨</h3>
+					<p>하림의 대표적인 브랜드 용가리 치킨,공룡모양으로 만들어 어린이들에게 먹는 재미와 즐거움을 주는 하림의 대표 육가공 제품이다</p>
+					<span>제품바로가기+</span>
+					</div></div>
+
+					<div class="col4" data-aos="fade-up" data-aos-delay='200'><img src="images/brand2.jpg"  alt=""><div class="txt">
+					<h3>용가리 치킨</h3>
+					<p>하림의 대표적인 브랜드 용가리 치킨,공룡모양으로 만들어 어린이들에게 먹는 재미와 즐거움을 주는 하림의 대표 육가공 제품이다</p>
+					<span>제품바로가기+</span>
+					</div></div>
+
+					<div class="col4" data-aos="fade-up" data-aos-delay='300'><img src="images/brand3.jpg"  alt=""><div class="txt">
+					<h3>용가리 치킨</h3>
+					<p>하림의 대표적인 브랜드 용가리 치킨,공룡모양으로 만들어 어린이들에게 먹는 재미와 즐거움을 주는 하림의 대표 육가공 제품이다</p>
+					<span>제품바로가기+</span>
+					</div></div>
+
+					<div class="col4"><img src="images/brand4.jpg"  alt=""><div class="txt">
+					<h3>용가리 치킨</h3>
+					<p>하림의 대표적인 브랜드 용가리 치킨,공룡모양으로 만들어 어린이들에게 먹는 재미와 즐거움을 주는 하림의 대표 육가공 제품이다</p>
+					<span>제품바로가기+</span>
+					</div></div>
+
+					<div class="col4"><img src="images/brand5.jpg"  alt=""><div class="txt">
+					<h3>용가리 치킨</h3>
+					<p>하림의 대표적인 브랜드 용가리 치킨,공룡모양으로 만들어 어린이들에게 먹는 재미와 즐거움을 주는 하림의 대표 육가공 제품이다</p>
+					<span>제품바로가기+</span>
+					</div></div>
+
+					<div class="col4"><img src="images/brand6.jpg"  alt=""><div class="txt">
+					<h3>용가리 치킨</h3>
+					<p>하림의 대표적인 브랜드 용가리 치킨,공룡모양으로 만들어 어린이들에게 먹는 재미와 즐거움을 주는 하림의 대표 육가공 제품이다</p>
+					<span>제품바로가기+</span>
+					</div></div>
 				</div>
 			</div>
 		</div>
     </div><!-- .brand end -->
 
     <div class="harim-sns section">
-		<div class="container">
-			<div class="col6"><h2>하림 SNS</h2></div>
-			<div class="col6">
-				<div id="video">
-					<iframe width="580" height="394" src="https://www.youtube.com/embed/TyYRifDywUM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<div class="section-wrap">
+			<div class="container">
+				<div class="col6">
+					<h2>하림 SNS</h2>
+					<p>맛있는 하림 이야기! <br>하림의 SNS를 통해서 만나보세요.</p>
+			
 				</div>
+				
+				<div class="col6" data-aos="slide-left" data-aos-delay='200'>
+					<div id="video">
+						<iframe width="580" height="394" src="https://www.youtube.com/embed/TyYRifDywUM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+				</div>
+			
+			</div>
+			<div class="container">
+				<div class="col3" data-aos="slide-up" data-aos-delay='100'><img src="./images/blog.jpg" alt=""></div>
+				<div class="col3" data-aos="slide-up" data-aos-delay='200'><img src="./images/facebook1.jpg" alt=""></div>
+				<div class="col3" data-aos="slide-up" data-aos-delay='300'><img src="./images/facebook1.jpg" alt=""></div>
+				<div class="col3" data-aos="slide-up" data-aos-delay='400'><img src="./images/insta.jpg" alt=""></div>
 			</div>
 		</div>
     </div><!-- .harim-sns end -->
 
     <div class="corporate section">
+	<div class="container">
+		<div class="col12">
+		<h2>CORPORATE SOCIAL<br>RESPONSIBILITY</h2>
+		<p>하림은 기업의 사회적 책임을 다하여 경제,사회,환경에 대한 기여도 향상을 지향합니다.</p>
+		</div>
+	  </div>
 
-    </div><!-- .corporate end -->
+	  <ul class="container">
+	  <li class='col4 iconbg' data-aos="slide-up" data-aos-delay='100'><img src="images/social_bg1.jpg" alt=""><img src="images/social_icon1.png" alt="" class='icon'></li>
+	  <li class='col4 iconbg1' data-aos="slide-up" data-aos-delay='200'><img src="images/social_bg2.jpg" alt=""><img src="images/social_icon2.png" alt="" class='icon'></li>
+	  <li class='col4 iconbg2' data-aos="slide-up" data-aos-delay='300'><img src="images/social_bg3.jpg" alt=""><img src="images/social_icon3.png" alt="" class='icon'></li>
+	  </ul>
+   </div><!-- .corporate end -->
 
 
     <div class="foot section fp-auto-height">
-		<div style='padding:100px 0;background:#333;color:#fff;text-align:center'>푸터 내용 들어가는곳</div>
+		<div class="container">
+		<div class="col8">
+		<div class="btn">
+			<a href="#">개인정보처리방침</a><a href="#">이용약관</a><a href="#">이메일무단수집거부</a><a href="#">사업부서안내</a><a href="#">생산이력관리</a>
+		</div>
+		<address>
+		주소:전라북도 익산시 망성면 망성로 14(54517)|(주)하림 Tel 063-860-2114|Fax 063-861-7857<br>
+		고객지원실:080-254-2000(가공),080-259-2000(신선)
+		</address>
+		<div class="copy">Copyright ⓒ2019 HARIM.Corporation.All Rights Reserved.</div>
+		</div>
+		<div class="col4"><a href="#">하림삼계탕</a></div>
+	  </div>
 	</div><!-- .foot end -->
 </div>
+
+<script>
+	AOS.init({duration:800,ease:'ease-out-sine'})
+</script>
 </body>
 </html>

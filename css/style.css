@@ -72,6 +72,59 @@ header a{
     color: var(--header-color);
 }
 
+
+.brand{text-align: center;
+	color: #fff;}
+
+	.brand h2{font-size: 30px;
+	}
+
+	.txt{
+	height: 200px;
+	background-color: #fff;
+	color: #000;
+	text-align: left;
+	
+	padding: 20px 10px;}
+
+	.txt h3{padding-bottom: 10px;}
+
+	.txt p{padding-bottom: 30px;}
+
+	.txt span{border: 1px solid #ff0000;
+	border-radius: 20px 20px 20px 20px;
+	padding: 10px 10px;
+	color: #ff0000;
+	font-weight: bold;}
+
+	.iconbg{position: relative;
+	}
+
+	.icon{position: absolute;
+	top:150px;
+	left: 150px;}
+
+	.corporate{text-align: center;}
+
+	.corporate h2{font-size: 30px;
+	margin-bottom: 20px;}
+
+	.corporate p{margin-bottom: 20px;}
+
+	.harim-sns div {
+	  height: 394px;
+	}
+	.harim-sns img {
+	  height: 100%;
+	}
+	.harim-sns div.col6 {
+	  margin-bottom: 20px;
+	}
+
+	.harim-sns div.col3 {
+	  height: 280px;
+	}
+
 .actionbtn .action-logo{
     width: 40px;
     height: 23px;
